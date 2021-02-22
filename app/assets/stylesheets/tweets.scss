@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, p, body {
 header{
   height: 46px;
   background-color: white;
-  border-bottom: 2px solid #bbb;
+  /*border-bottom: 2px solid #bbb;*/
 }
 
 h1{
@@ -34,17 +34,66 @@ h1{
   text-align: center;
 }
 
+h2{
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  text-align: center;
+}
+
 .contents{
+  height: 100%;
   width: 600px;
   margin: 5px auto 0;
-  background-color: #bbb;
+  background-color: white;
+}
+
+form{
+  width: 600px;
+  background-color: white;
+  padding: 5px 0 0;
+}
+
+.input-box{
+  float: left;
+  width: 500px;
+}
+
+.input-box input{
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+
+form img{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  float: left;
+  height: 24px;
+  margin: 0 5px 5px 34px;
+}
+
+.submit-button{
+  width: 70px;
+  margin: 10px 25px 0 0;
+}
+
+form textarea{
+  width: 500px;
+  border: 1px solid #ccc;
+}
+
+.button-box{
+  float: right;
+  height: 70px;
 }
 
 .message{
   min-height: 100px;
-  width: 596px;
-  margin: 0 auto 1px;
+  width: 598px;
+  margin: 0 auto;
   background-color: #fff;
+  border: 1px solid #bbb;
+  border-bottom: none;
 }
 
 .message img{
@@ -57,12 +106,13 @@ h1{
 
 .message_box{
   float: left;
+  height: 100px;
   width: 505px;
+  padding: 9px 0 10px;
 }
 
 .user_name{
   font-weight: bold;
-  padding: 9px 0 0 10px;
   line-height: 18px;
 }
 
@@ -71,11 +121,5 @@ h1{
 }
 
 .text{
-  padding: 0 10px 10px 10px;
   line-height: 18px;
-}
-
-footer{
-  height: 80px;
-  background-color: #555;
 }
